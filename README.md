@@ -1,1 +1,1 @@
-Live: [https://resume-dm-gh.vercel.app/]()
+Live: [https://resume-dm-gh.vercel.app/](https://resume-dm-gh.vercel.app/)
