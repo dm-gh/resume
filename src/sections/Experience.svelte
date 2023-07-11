@@ -1,9 +1,53 @@
 <script>
   import Text from './../components/Text.svelte';
   import Section from './../components/Section.svelte';
+  import HDivider from "../components/HDivider.svelte";
 </script>
 
 <Section class={$$props.class} title="Experience">
+
+  <div class="flex items-center">
+    <img src="/images/bp_logo.png" alt="Netcracker Logo" class="mr-2 w-6 h-6 min-w-6 min-h-6 rounded-full">
+
+    <Text class="text-xl font-semibold uppercase">
+      Senior Frontend Engineer
+    </Text>
+  </div>
+
+  <div class="flex justify-between items-baseline mt-1">
+    <Text class="text-lg font-medium">
+      BillingPlatform, Tbilisi Georgia
+    </Text>
+    <Text class="font-medium">
+      June 2022 - Present Day
+    </Text>
+  </div>
+
+  <Text class="mt-4">
+    Engineering and supporting complex interfaces for the revenue lifecycle platform.
+  </Text>
+
+  <div class="mt-2 break-inside-avoid">
+    <ul class="list-disc mt-2 pl-6">
+      <li>
+        <Text>
+          Creating flexible extension widgets tailored for each of 100+ customers
+        </Text>
+      </li>
+      <li class="mt-2">
+        <Text>
+          Making highly customizable payment solution for any application
+        </Text>
+      </li>
+      <li class="mt-2">
+        <Text>
+          Re-working ancient legacy codebase to meet modern standards without platform downtime
+        </Text>
+      </li>
+    </ul>
+  </div>
+
+  <HDivider class="my-6"/>
 
   <div class="flex items-center">
     <img src="/images/nc_logo.jpeg" alt="Netcracker Logo" class="mr-2 w-6 h-6 min-w-6 min-h-6 rounded-full">
@@ -18,7 +62,7 @@
       Netcracker, Moscow Russia
     </Text>
     <Text class="font-medium">
-      Sep 2017 - Present Day
+      Sep 2017 - May 2022
     </Text>
   </div>
 
